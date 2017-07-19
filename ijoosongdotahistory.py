@@ -12,7 +12,7 @@ api = dota2api.Initialise("Enter Valve API Key")
 #ijoosong's Match History
 match_history = api.get_match_history(account_id=steamID64)
 
-#List of Match ID, Match Details, Hero Picks
+#List of Match ID, Match Details, Hero Picks, Deaths, Match Results
 match_ids = []
 teams = []
 hero_picks = []
