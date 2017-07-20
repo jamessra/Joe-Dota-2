@@ -46,7 +46,7 @@ for match_number in match_history['matches']:
 	else:
 		match_results.append('Dire')
 
-#Create Dataframe and CSV file		
+#Create DataFrame and CSV file		
 df = pd.DataFrame(list(zip(game_time, match_ids, teams, hero_picks, deaths, match_results)), columns=['Game Time', 'Match ID', 'Team', 'Hero Picked', 'Deaths', 'Match Results'])
 df.to_csv('ijoosong.csv', index=False)
 
